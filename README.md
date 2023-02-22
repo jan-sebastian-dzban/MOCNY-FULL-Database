@@ -96,7 +96,7 @@ tables are:
     -   `supplies_info` -- contains details about the products supplied
         with their quantities.
 
-![UML diagram generated in MySQL Workspace.]("./UML.pdf")
+![UML diagram generated in MySQL Workspace.](./UML.pdf)
 
 ## Views and Prepared Statements
 
