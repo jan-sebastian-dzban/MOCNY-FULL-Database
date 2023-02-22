@@ -1,0 +1,101 @@
+product_id,name,brand,type,abv,capacity,categories,country
+101,La Marca Prosecco,La Marca,Sparkling,11.1,69,"Sparkling Wine, Prosecco",Italy
+102,Josh Cellars Cabernet Sauvignon,Josh Cellars,Red,13.6,100,"Red Wine, Cabernet Sauvignon",United States
+103,Kim Crawford Sauvignon Blanc,Kim Crawford Wines,White,17.7,95,"White Wine, Sauvignon Blanc",New Zealand
+104,Meiomi Pinot Noir,Meiomi Wines,Red,13.9,93,"Red Wine, Pinot Noir",United States
+105,Bota Box Cabernet Sauvignon,Bota Box Wines,Red,11.1,88,"Red Wine, Cabernet Sauvignon",United States
+106,Santa Margherita Pinot Grigio DOC,Santa Margherita,White,18.2,74,"White Wine, Pinot Grigio",Italy
+107,Bota Box Pinot Grigio,Bota Box Wines,White,15.0,93,"White Wine, Pinot Grigio",United States
+108,Whispering Angel Rosé,Chateau d'Esclans,Rosé,15.4,98,"Rosé Wine, Pink Wine",France
+109,Decoy California Cabernet Sauvignon,Decoy Wines,Red,15.6,74,"Red Wine, Cabernet Sauvignon",United States
+110,Bota Box Sauvignon Blanc,Bota Box Wines,White,14.7,92,"White Wine, Sauvignon Blanc",United States
+111,La Crema Sonoma Coast Chardonnay,La Crema Wines,White,18.3,40,"White Wine, Chardonnay",United States
+112,La Crema Sonoma Coast Pinot Noir,La Crema Wines,Red,14.8,33,"Red Wine, Pinot Noir",United States
+113,Josh Cellars Pinot Noir,Josh Cellars,Red,11.5,53,"Red Wine, Pinot Noir",United States
+114,Whitehaven Sauvignon Blanc,Whitehaven,White,11.5,91,"White Wine, Sauvignon Blanc",New Zealand
+115,Bota Box Nighthawk Rich Red Wine Blend,Bota Box Wines,Rioja,17.0,69,"Rioja Blend, Red Wine",United States
+116,Bota Box Chardonnay,Bota Box Wines,White,16.1,79,"White Wine, Chardonnay",United States
+117,Bota Box Malbec,Bota Box Wines,Red,14.3,15,"Red Wine, Malbec",Argentina
+118,Bota Box Pinot Noir,Bota Box Wines,Red,15.9,64,"Red Wine, Pinot Noir",Chile
+119,Black Box Chardonnay,Black Box Wines,White,16.8,48,"White Wine, Chardonnay",United States
+120,Zaccagnini Montepulciano,Zaccagnini,Red,12.4,85,"Red Wine, Montepulciano",Italy
+121,J. Lohr Estates Seven Oaks Cabernet Sauvignon Paso,J. Lohr Wines,Red,19.8,79,"Red Wine, Cabernet Sauvignon",United States
+122,Bota Box RedVolution,Bota Box Wines,Red,12.7,27,"Red Wine, Red Blend",United States
+123,Chateau Ste. Michelle Cabernet Sauvignon,Chateau Ste. Michelle,Red,17.1,45,"Red Wine, Cabernet Sauvignon",United States
+124,Butter Chardonnay,JaM Cellars,White,11.1,24,"White Wine, Chardonnay",United States
+125,Freakshow Cabernet Sauvignon,Michael David,Red,19.6,16,"Red Wine, Cabernet Sauvignon",United States
+126,Franzia Chardonnay White Wine,Franzia,White,18.7,80,"White Wine, Chardonnay",United States
+127,Erath Pinot Noir,Erath,Red,19.3,72,"Red Wine, Pinot Noir",United States
+128,Kendall-Jackson Vintner’s Reserve Cabernet Sauvign,Kendall-Jackson,Red,15.1,33,"Red Wine, Cabernet Sauvignon",United States
+129,JUSTIN Cabernet Sauvignon,Justin Winery,Red,11.7,79,"Red Wine, Cabernet Sauvignon",United States
+130,Carpano Antica Formula Vermouth,Carpano,"Vermouth, Fortified",16.0,25,"Vermouth, Fortified Wine",Italy
+131,Cloudy Bay Sauvignon Blanc,Cloudy Bay,White,19.5,41,"White Wine, Sauvignon Blanc",New Zealand
+132,Joel Gott 815 Cabernet Sauvignon,Joel Gott,Red,13.0,34,"Red Wine, Cabernet Sauvignon",United States
+133,Black Box Pinot Noir,Black Box Wines,Red,17.3,17,"Red Wine, Pinot Noir",United States
+134,Black Box Pinot Grigio,Black Box Wines,White,15.1,17,"White Wine, Pinot Grigio",United States
+135,Educated Guess Napa Valley Cabernet Sauvignon,Educated Guess,Red,17.5,87,"Red Wine, Cabernet Sauvignon",United States
+136,Decoy California Pinot Noir,Decoy Wines,Red,15.8,95,"Red Wine, Pinot Noir",United States
+137,The Prisoner Red Blend,The Prisoner Wine Company,Red,11.4,45,"Red Wine, Red Blend",United States
+138,Francis Coppola Diamond Collection Claret,Francis Ford Coppola,Red,19.3,37,"Red Wine, Bordeaux Blend",United States
+139,Chandon Rosé Sparkling,Domaine Chandon,Sparkling,10.2,71,"Sparkling Wine, Sparkling Rosé Wine",United States
+140,La Crema Monterey Pinot Noir,La Crema Wines,Red,14.9,54,"Red Wine, Pinot Noir",United States
+141,Bota Box Nighthawk Buttery Chardonnay,Bota Box Wines,White,10.0,62,"White Wine, Chardonnay",United States
+142,Francis Coppola Diamond Collection Cabernet Sauvig,Francis Ford Coppola,Red,14.0,20,"Red Wine, Cabernet Sauvignon",United States
+143,Franzia Sunset Blush Pink Wine,Franzia,Rosé,15.2,62,"Rosé Wine, Pink Wine",United States
+144,Chandon Brut Sparkling,Domaine Chandon,Sparkling,18.2,89,"Sparkling Wine, American Sparkling Wine",United States
+145,Juggernaut Hillside Cabernet Sauvignon,Juggernaut Wine,Red,13.6,48,"Red Wine, Cabernet Sauvignon",United States
+146,Josh Cellars Merlot,Josh Cellars,Red,14.4,33,"Red Wine, Merlot",United States
+147,Bota Box Nighthawk Bold Cabernet Sauvignon,Bota Box Wines,Red,10.4,30,"Red Wine, Cabernet Sauvignon",United States
+148,SIMI Sonoma County Cabernet Sauvignon,SIMI,Red,10.6,30,"Red Wine, Cabernet Sauvignon",United States
+149,Dolin Dry Vermouth,Dolin,"Vermouth, Fortified",18.8,73,"Vermouth, Fortified Wine",France
+150,A to Z Pinot Noir,A to Z,Red,18.8,11,"Red Wine, Pinot Noir",United States
+151,Barefoot On Tap Pinot Grigio,Barefoot,White,16.8,64,"White Wine, Pinot Grigio",United States
+152,Miraval Provence Rosé,Miraval,Rosé,17.8,32,"Rosé Wine, Pink Wine",France
+153,Cooper and Thief Bourbon Barrel Aged Red Blend Red,Cooper & Thief,Red,14.5,22,"Red Wine, Red Blend",United States
+154,SIMI Sonoma County Chardonnay,SIMI,White,15.2,12,"White Wine, Chardonnay",United States
+155,Black Box Sauvignon Blanc,Black Box Wines,White,12.3,45,"White Wine, Sauvignon Blanc",United States
+156,Rombauer Carneros Chardonnay,Rombauer,White,15.7,86,"White Wine, Chardonnay",United States
+157,Franzia Cabernet Sauvignon Red Wine,Franzia,Red,12.3,51,"Red Wine, Cabernet Sauvignon",United States
+158,Michael David Petite Petit,Michael David,Syrah,15.8,71,"Syrah / Shiraz, Red Wine",United States
+159,7 Deadly Zins Zinfandel,7 Deadly Zins,"Zinfandel, Red",14.3,70,"Zinfandel, Red Wine",United States
+160,Sonoma-Cutrer Sonoma Coast Chardonnay White Wine,Sonoma-Cutrer Winery,White,11.0,96,"White Wine, Chardonnay",United States
+161,The Palm by Whispering Angel Rosé,Chateau d'Esclans,Rosé,19.6,91,"Rosé Wine, Cinsault",France
+162,Ruffino Riserva Ducale Chianti Classico,Ruffino,Red,13.9,57,"Red Wine, Chianti Blend",Italy
+163,Black Box Merlot,Black Box Wines,Red,12.4,32,"Red Wine, Merlot",United States
+164,Conundrum Red Blend,Conundrum,Red,12.2,20,"Red Wine, Red Blend",United States
+165,Unshackled Cabernet Sauvignon by Prisoner,Unshackled,Red,18.7,18,"Red Wine, Cabernet Sauvignon",United States
+166,Bota Box Nighthawk Vibrant Sauvignon Blanc,Bota Box Wines,White,10.9,61,"White Wine, Sauvignon Blanc",United States
+167,Luc Belaire Rare Rose,Luc Belaire,Rosé,17.8,9,"Rosé Wine, Pink Wine",France
+168,Black Box Malbec,Black Box Wines,Red,14.7,60,"Red Wine, Malbec",Argentina
+169,Bota Box Nighthawk Bourbon Barrel Aged Cabernet Sa,Bota Box Wines,Red,10.4,25,"Red Wine, Cabernet Sauvignon",United States
+170,Mumm Napa Brut Rosé Sparkling Wine,Mumm Napa,Rosé,16.5,57,"Rosé Wine, Pink Wine",United States
+171,Champagne Nicolas Feuillatte Brut Reserve Exclusiv,Nicolas Feuillatte Champagne,Sparkling,18.8,72,"Sparkling Wine, Champagne",France
+172,Early Mountain Foothills Red,Early Mountain Vineyards,Red,14.7,79,"Red Wine, Red Blend",United States
+173,J Vineyards & Winery Pinot Noir,J Vineyards,Red,13.9,81,"Red Wine, Pinot Noir",United States
+174,La Crema Monterey Chardonnay,La Crema Wines,White,16.2,5,"White Wine, Chardonnay",United States
+175,Franzia Crisp White White Wine,Franzia,White,16.7,38,"White Wine, White Blend",United States
+176,Lillet Servir Tres Frais Blanc,Lillet,Fortified,13.3,21,Fortified Wine,France
+177,Wolffer Estate Summer In A Bottle Rosé,Wolffer Estate,Rosé,19.0,16,"Rosé Wine, Pink Wine",United States
+178,Decoy Sonoma County Sauvignon Blanc,Decoy Wines,White,13.5,89,"White Wine, Sauvignon Blanc",United States
+179,Bota Box Merlot,Bota Box Wines,Red,11.7,16,"Red Wine, Merlot",United States
+180,Finca Wolffer Rosé Wine,Wolffer Estate,Rosé,12.9,83,"Rosé Wine, Pink Wine",Argentina
+181,Franzia Merlot Red Wine,Franzia,Red,16.2,69,"Red Wine, Merlot",United States
+182,Antigal Uno Malbec,Antigal,Red,17.7,52,"Red Wine, Malbec",Argentina
+183,White Hall Viognier,White Hall Vineyards,White,17.4,19,"White Wine, White Blend",United States
+184,Luc Belaire Rare Luxe,Luc Belaire,Sparkling,19.4,89,"Sparkling Wine, Other Sparkling Wine",France
+185,INTRINSIC Cabernet Sauvignon,Intrinsic Wine Co.,Red,18.4,93,"Red Wine, Cabernet Sauvignon",United States
+186,Chateau Ste. Michelle Indian Wells Cabernet Sauvig,Chateau Ste. Michelle,Red,11.3,6,"Red Wine, Cabernet Sauvignon",United States
+187,Risata Moscato d’Asti,Risata,White,12.1,92,"White Wine, Moscato",Italy
+188,Franzia Moscato White Wine,Franzia,White,17.0,51,"White Wine, Moscato",United States
+189,Fleur de Mer Rosé,Fleur De Mer,Rosé,19.1,37,"Rosé Wine, Pink Wine",France
+190,Barefoot On Tap Rosé,Barefoot,Rosé,12.6,42,"Rosé Wine, Pink Wine",United States
+191,Barefoot On Tap Chardonnay,Barefoot,White,17.8,60,"White Wine, Chardonnay",United States
+192,Fleurs De Prairie Rosé,Fleurs De Prairie,Rosé,15.4,63,"Rosé Wine, Pink Wine",France
+193,Lovingston Rotunda Red,Lovingston WInery,Red,11.0,53,"Red Wine, Red Blend",United States
+194,Francis Coppola Diamond Collection Pinot Noir,Francis Ford Coppola,Red,13.3,92,"Red Wine, Pinot Noir",United States
+195,Louis M. Martini Sonoma County Cabernet Sauvignon,Louis M. Martini,Red,14.1,35,"Red Wine, Cabernet Sauvignon",United States
+196,Decoy Sonoma County Chardonnay,Decoy Wines,White,19.4,95,"White Wine, Chardonnay",United States
+197,Substance ‘Cs’ Columbia Valley Cabernet Sauvignon,Substance,Red,12.1,36,"Red Wine, Cabernet Sauvignon",United States
+198,Francis Coppola Diamond Collection Merlot,Francis Ford Coppola,Red,10.7,69,"Red Wine, Merlot",United States
+199,Terrazas de los Andes Reserva Malbec,Terrazas de los Andes,Red,18.0,32,"Red Wine, Malbec",Argentina
+200,Gruet Brut,Gruet,Sparkling,11.7,58,"Sparkling Wine, American Sparkling Wine",United States

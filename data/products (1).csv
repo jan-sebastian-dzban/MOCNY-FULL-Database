@@ -1,0 +1,500 @@
+product_id,name,type,abv,capacity,price,quantity
+1,Bud Light,beer,2.2,1,26.99,6
+2,Coors Light Lager Beer,beer,5.8,1,21.99,73
+3,Miller Lite Lager Beer,beer,6.8,1,21.99,8
+4,Corona Extra,beer,4.8,1,18.39,33
+5,Michelob ULTRA,beer,2.9,1,24.99,83
+6,Stella Artois,beer,4.3,1,18.62,76
+7,Modelo Especial,beer,4,1,18.49,60
+8,Guinness Draught,beer,4.3,1,10.29,77
+9,Blue Moon Belgian White Wheat Beer,beer,3.4,1,17.99,93
+10,Heineken Lager,beer,2.4,1,17.99,73
+11,Budweiser,beer,6.7,1,2.69,92
+12,Lagunitas IPA,beer,4.4,1,10.99,82
+13,Corona Light,beer,6.5,1,17.99,73
+14,New Belgium Fat Tire Amber Ale,beer,6.5,1,3.99,54
+15,New Belgium Voodoo Ranger Imperial IPA,beer,6.9,1,11.86,54
+16,Yuengling Traditional Lager,beer,4.1,1,13.64,2
+17,Corona Premier,beer,5.3,1,17.99,86
+18,Pabst Blue Ribbon,beer,5.5,1,6.96,12
+19,Sierra Nevada Hazy Little Thing IPA,beer,5,1,10.99,63
+20,Samuel Adams Octoberfest,beer,2.4,1,10.04,76
+21,Founders All Day IPA,beer,4,1,18.99,35
+22,Dos Equis Lager,beer,7,1,16.99,18
+23,Miller High Life American Lager Beer,beer,4.7,1,10.49,82
+24,Coors Banquet Lager Beer,beer,6.9,1,19.99,11
+25,Bud Light Platinum,beer,2.4,1,15.39,46
+26,Bell’s Two Hearted Ale IPA,beer,5,1,9.99,93
+27,Bud Light Lime,beer,2.2,1,14.99,15
+28,Modelo Negra,beer,5.8,1,17.99,98
+29,Pacifico Clara,beer,4.5,1,17.99,79
+30,Samuel Adams Boston Lager Beer,beer,5.1,1,17.97,3
+31,Peroni Nastro Azzurro Pale Lager Beer,beer,3.2,1,17.99,86
+32,Allagash White,beer,3.1,1,12.99,76
+33,Narragansett Lager,beer,3.7,1,7.29,41
+34,Busch Light,beer,5.1,1,19.99,96
+35,Guinness Extra Stout,beer,3.7,1,10.49,78
+36,Michelob Ultra Pure Gold,beer,2.6,1,17.29,13
+37,Sierra Nevada Pale Ale,beer,6.7,1,17.99,15
+38,Cigar City Brewing Jai Alai IPA,beer,2.4,1,11.57,76
+39,Left Hand Milk Stout Nitro,beer,2.6,1,12.29,3
+40,New Belgium Voodoo Ranger IPA,beer,2.3,1,10.74,54
+41,Shiner Bock,beer,4.5,1,9.99,56
+42,Natural Light,beer,3.4,1,19.25,20
+43,Victory Brewing Sour Monkey,beer,3.5,1,12.99,29
+44,Lawson’s Sip of Sunshine IPA,beer,4.7,1,16.99,79
+45,Lagunitas Little Sumpin’ Sumpin’ Ale,beer,6.2,1,11.69,5
+46,Dogfish Head Seaquench Ale,beer,5.2,1,11.99,56
+47,New Belgium Voodoo Ranger Juicy Haze IPA,beer,5.2,1,11.49,37
+48,Victory Golden Monkey,beer,3.5,1,13.79,69
+49,Lagunitas Hazy Wonder,beer,2.4,1,10.99,28
+50,Heineken Light,beer,6.6,1,16.99,74
+51,Kona Big Wave Golden Ale,beer,4.8,1,9.99,17
+52,Dogfish Head 90 Minute IPA,beer,5.2,1,15.39,14
+53,Mighty Squirrel Cloud Candy IPA,beer,4.2,1,14.8,63
+54,Lagunitas DayTime IPA,beer,4,1,10.62,92
+55,Elysian Brewing Space Dust IPA,beer,2.4,1,13.39,3
+56,Rolling Rock Extra Pale,beer,4.6,1,10.66,56
+57,Shipyard Seasonal,beer,2.1,1,9.99,11
+58,Lord Hobo Boomsauce Double IPA,beer,4.9,1,14.94,51
+59,Tecate,beer,5.8,1,12.99,11
+60,Night Shift Santilli IPA,beer,5.2,1,13.99,35
+61,Red Stripe,beer,6,1,9.32,82
+62,Pilsner Urquell Beer,beer,2.2,1,7.99,51
+63,Oskar Blues Dale’s Pale Ale,beer,6.8,1,18.99,79
+64,Corona Extra Coronita,beer,3.2,1,23.99,52
+65,Breckenridge Brewery 15 Can Sampler Pack,beer,2.5,1,17.86,27
+66,Sixpoint Resin,beer,3.7,1,17.86,9
+67,Hoegaarden White,beer,2.4,1,10.99,44
+68,Harpoon IPA,beer,2.8,1,17.39,81
+69,Golden Road Brewing Mango Cart,beer,6.8,1,10.99,20
+70,Stone Delicious IPA,beer,5.9,1,5.95,39
+71,Amstel Light,beer,6.8,1,16.99,91
+72,Ballast Point Sculpin IPA,beer,4.4,1,8.79,100
+73,Schöfferhofer Grapefruit Hefeweizen,beer,6.9,1,10.49,88
+74,Blue Moon Light Sky Wheat Beer,beer,2.3,1,17.99,32
+75,Natural Ice,beer,6.1,1,18.89,48
+76,New Holland Dragon’s Milk Bourbon Barrel Stout,beer,5,1,9.49,20
+77,Sloop Brewing Juice Bomb IPA,beer,4.4,1,17.4,67
+78,Yuengling Light Lager,beer,6.2,1,21.73,97
+79,"New Belgium Rotating Seasonal, Accumulation White IPA",beer,5.9,1,10.7,90
+80,Odell 90 Shilling Ale,beer,5.4,1,18.99,76
+81,Guinness Baltimore Blonde,beer,5.6,1,9.99,97
+82,Dogfish Head Slightly Mighty,beer,4.6,1,19.99,69
+83,Night Shift Nite Lite Craft Light Lager,beer,5.1,1,7.79,55
+84,Brooklyn Lager,beer,3.2,1,10.99,87
+85,New Belgium Voodoo Ranger Rotating IPA Series,beer,4.3,1,11.62,64
+86,Dogfish Head 60 Minute IPA,beer,6.4,1,11.99,1
+87,Beck’s,beer,4.5,1,15.39,8
+88,Maine Beer Company Lunch,beer,4,1,7.99,10
+89,Station 26 Juicy Banger IPA,beer,4.5,1,11.99,8
+90,Lagunitas Super Cluster IPA,beer,5.7,1,10.52,35
+91,Odell IPA,beer,5.7,1,18.99,94
+92,Sierra Nevada Torpedo Extra IPA,beer,2,1,10.49,35
+93,Firestone Walker Mind Haze,beer,6.8,1,16.09,21
+94,Weihenstaphaner Hefe Weissbier,beer,4.5,1,3.99,34
+95,Revolver Brewing Blood and Honey,beer,2.5,1,9.99,58
+96,Firestone Walker 805,beer,6,1,19.99,12
+97,Stone IPA,beer,5,1,11.99,99
+98,Dry Dock Brewing Apricot Blonde,beer,3.3,1,9.99,10
+99,LandShark Lager,beer,6.1,1,14.99,98
+100,Blue Moon Mango Wheat Beer,beer,5.2,1,10.44,19
+101,La Marca Prosecco,wine,15.1,1,16.99,20
+102,Josh Cellars Cabernet Sauvignon,wine,19.8,1,15.44,40
+103,Kim Crawford Sauvignon Blanc,wine,10.4,1,16.95,82
+104,Meiomi Pinot Noir,wine,14.5,1,21.99,84
+105,Bota Box Cabernet Sauvignon,wine,14.6,1,19.99,73
+106,Santa Margherita Pinot Grigio DOC,wine,13.8,1,23.99,82
+107,Bota Box Pinot Grigio,wine,10.4,1,19.99,43
+108,Whispering Angel Rosé,wine,10.6,1,22.99,77
+109,Decoy California Cabernet Sauvignon,wine,14.4,1,21.99,23
+110,Bota Box Sauvignon Blanc,wine,19.7,1,19.99,60
+111,La Crema Sonoma Coast Chardonnay,wine,19.7,1,19.99,37
+112,La Crema Sonoma Coast Pinot Noir,wine,16,1,23.99,30
+113,Josh Cellars Pinot Noir,wine,10.1,1,17.99,90
+114,Whitehaven Sauvignon Blanc,wine,17.8,1,17.99,81
+115,Bota Box Nighthawk Rich Red Wine Blend,wine,16.6,1,19.99,11
+116,Bota Box Chardonnay,wine,19.4,1,19.99,36
+117,Bota Box Malbec,wine,12.4,1,19.99,47
+118,Bota Box Pinot Noir,wine,13.1,1,19.99,78
+119,Black Box Chardonnay,wine,12.1,1,21.59,30
+120,Zaccagnini Montepulciano,wine,16.5,1,16.99,78
+121,J. Lohr Estates Seven Oaks Cabernet Sauvignon Paso Robles CA,wine,17.5,1,16.99,70
+122,Bota Box RedVolution,wine,14.6,1,19.99,86
+123,Chateau Ste. Michelle Cabernet Sauvignon,wine,11.5,1,15.99,75
+124,Butter Chardonnay,wine,13.1,1,16.99,14
+125,Freakshow Cabernet Sauvignon,wine,18.2,1,19.99,51
+126,Franzia® Chardonnay White Wine,wine,11.1,1,18.99,38
+127,Erath Pinot Noir,wine,13.3,1,18.97,85
+128,Kendall-Jackson Vintner’s Reserve Cabernet Sauvignon,wine,18,1,19.99,10
+129,JUSTIN Cabernet Sauvignon,wine,19.6,1,27.49,60
+130,Carpano Antica Formula Vermouth,wine,14.3,1,35.99,52
+131,Cloudy Bay Sauvignon Blanc,wine,11.6,1,29.99,79
+132,Joel Gott 815 Cabernet Sauvignon,wine,12.5,1,16.99,54
+133,Black Box Pinot Noir,wine,14.5,1,21.49,69
+134,Black Box Pinot Grigio,wine,14,1,21.99,71
+135,Educated Guess Napa Valley Cabernet Sauvignon,wine,11.6,1,24.99,17
+136,Decoy California Pinot Noir,wine,15.9,1,21.71,24
+137,The Prisoner Red Blend,wine,18.3,1,49.99,13
+138,Francis Coppola Diamond Collection Claret,wine,18.1,1,17.99,21
+139,Chandon Rosé Sparkling,wine,19.9,1,19.99,18
+140,La Crema Monterey Pinot Noir,wine,16.9,1,19.43,83
+141,Bota Box Nighthawk Buttery Chardonnay,wine,15.4,1,18.99,44
+142,Francis Coppola Diamond Collection Cabernet Sauvignon,wine,16,1,15.99,81
+143,Franzia® Sunset Blush Pink Wine,wine,15.3,1,15.99,49
+144,Chandon Brut Sparkling,wine,19.9,1,20.51,31
+145,Juggernaut Hillside Cabernet Sauvignon,wine,11.5,1,20.99,38
+146,Josh Cellars Merlot,wine,13.8,1,15,78
+147,Bota Box Nighthawk Bold Cabernet Sauvignon,wine,12.4,1,19.99,92
+148,SIMI Sonoma County Cabernet Sauvignon,wine,18.1,1,21.99,76
+149,Dolin Dry Vermouth,wine,16.2,1,15.99,88
+150,A to Z Pinot Noir,wine,17.7,1,19.99,99
+151,Barefoot On Tap Pinot Grigio,wine,11.8,1,19.99,51
+152,Miraval Provence Rosé,wine,12.9,1,24.99,32
+153,Cooper and Thief Bourbon Barrel Aged Red Blend Red Wine,wine,10.5,1,27.99,10
+154,SIMI Sonoma County Chardonnay,wine,10.2,1,16.73,17
+155,Black Box Sauvignon Blanc,wine,13.3,1,21.4,43
+156,Rombauer Carneros Chardonnay,wine,17.6,1,39.99,77
+157,Franzia® Cabernet Sauvignon Red Wine,wine,12.1,1,18.99,44
+158,Michael David Petite Petit,wine,19.3,1,16.99,50
+159,7 Deadly Zins Zinfandel,wine,10.3,1,15.99,15
+160,Sonoma-Cutrer Sonoma Coast Chardonnay White Wine,wine,13.4,1,24.99,29
+161,The Palm by Whispering Angel Rosé,wine,18.4,1,16.99,54
+162,Ruffino Riserva Ducale Chianti Classico,wine,13.7,1,25.19,88
+163,Black Box Merlot,wine,12.6,1,21.83,68
+164,Conundrum Red Blend,wine,12.9,1,23.26,76
+165,Unshackled Cabernet Sauvignon by Prisoner,wine,19.1,1,26.98,61
+166,Bota Box Nighthawk Vibrant Sauvignon Blanc,wine,18.1,1,19,92
+167,Luc Belaire Rare Rose,wine,17,1,32,96
+168,Black Box Malbec,wine,10.4,1,21.4,73
+169,Bota Box Nighthawk Bourbon Barrel Aged Cabernet Sauvignon,wine,18.4,1,19.99,96
+170,Mumm Napa Brut Rosé Sparkling Wine,wine,17.9,1,21.95,56
+171,Champagne Nicolas Feuillatte Brut Reserve Exclusive,wine,14.7,1,36.31,76
+172,Early Mountain Foothills Red,wine,18.6,1,19.99,21
+173,J Vineyards & Winery Pinot Noir,wine,15.1,1,22.99,30
+174,La Crema Monterey Chardonnay,wine,11.1,1,16.99,96
+175,Franzia® Crisp White White Wine,wine,11.6,1,15.99,46
+176,Lillet Servir Tres Frais Blanc,wine,17.4,1,22.99,60
+177,Wolffer Estate Summer In A Bottle Rosé,wine,16.2,1,26.97,1
+178,Decoy Sonoma County Sauvignon Blanc,wine,16.6,1,17.99,88
+179,Bota Box Merlot,wine,11.6,1,19.99,64
+180,Finca Wolffer Rosé Wine,wine,10.4,1,16.49,40
+181,Franzia® Merlot Red Wine,wine,11.7,1,18.99,18
+182,Antigal Uno Malbec,wine,13,1,15.99,69
+183,White Hall Viognier,wine,12.9,1,19.99,57
+184,Luc Belaire Rare Luxe,wine,16.1,1,31.99,89
+185,INTRINSIC Cabernet Sauvignon,wine,15.2,1,21.99,7
+186,Chateau Ste. Michelle Indian Wells Cabernet Sauvignon,wine,18.7,1,17.99,75
+187,Risata Moscato d’Asti,wine,19.7,1,15.44,15
+188,Franzia® Moscato White Wine,wine,11.6,1,19,11
+189,Fleur de Mer Rosé,wine,16.2,1,19.99,71
+190,Barefoot On Tap Rosé,wine,10.4,1,19.49,56
+191,Barefoot On Tap Chardonnay,wine,12.7,1,19.99,88
+192,Fleurs De Prairie Rosé,wine,15.7,1,17.93,10
+193,Lovingston Rotunda Red,wine,14.5,1,15.99,28
+194,Francis Coppola Diamond Collection Pinot Noir,wine,15,1,16.99,46
+195,Louis M. Martini Sonoma County Cabernet Sauvignon,wine,19,1,18.89,4
+196,Decoy Sonoma County Chardonnay,wine,16.1,1,17.99,93
+197,Substance ‘Cs’ Columbia Valley Cabernet Sauvignon,wine,14.7,1,16.99,98
+198,Francis Coppola Diamond Collection Merlot,wine,13,1,15.99,29
+199,Terrazas de los Andes Reserva Malbec,wine,16,1,19.99,2
+200,Gruet Brut,wine,14.7,1,15.99,6
+201,Kahlua,liquor,15.4,1,42.99,21
+202,Baileys Irish Cream Original,liquor,18.6,1,29.99,2
+203,Grand Marnier Cordon Rouge,liquor,10.2,1,39.99,88
+204,Disaronno Originale Amaretto,liquor,15.8,1,29.99,40
+205,Cointreau,liquor,13.4,1,38.99,64
+206,RumChata,liquor,15.9,1,24.99,87
+207,Campari,liquor,36.8,1,39.99,8
+208,Aperol,liquor,10.4,1,25.99,22
+209,Jägermeister,liquor,13.4,1,44.99,72
+210,St-Germain Elderflower Liqueur,liquor,25,1,36.99,63
+211,Pennsylvania Dutch Egg Nog,liquor,32.6,1,10.99,75
+212,Chambord Black Raspberry Liqueur,liquor,28.7,1,34.99,73
+213,Frangelico Hazelnut Liqueur,liquor,16.7,1,29.99,87
+214,Carolans Irish Cream,liquor,25.6,1,14.99,11
+215,Rumple Minze Peppermint Schnapps,liquor,21.2,1,26.99,29
+216,Kahlua Salted Caramel,liquor,22.8,1,22.99,56
+217,Molly’s Irish Cream,liquor,14.2,1,15.33,26
+218,Tequila Rose,liquor,15.7,1,21.99,77
+219,DeKuyper Peachtree Schnapps Liqueur,liquor,37.6,1,11.69,17
+220,Saint Brendan’s Irish Cream Liqueur,liquor,11.1,1,23.99,9
+221,Baileys Salted Caramel,liquor,37.9,1,27.99,15
+222,Kahlua Chili Chocolate Coffee Liqueur,liquor,19.5,1,21.99,35
+223,"Baileys Irish Cream Strawberries , Cream",liquor,36.6,1,27.99,19
+224,Amaretto di Amore,liquor,23.3,1,14.49,22
+225,Baileys Red Velvet,liquor,25.4,1,28.99,92
+226,Fernet-Branca,liquor,13.5,1,32.99,86
+227,Romana Sambuca,liquor,39.7,1,38.99,23
+228,Kahlua Mudslide,liquor,17.4,1,15.99,52
+229,Chartreuse Green Liqueur,liquor,29.9,1,60.47,92
+230,Kinky Pink Liqueur,liquor,37.5,1,19.99,20
+231,Amarula Cream Liqueur,liquor,17.8,1,23.99,34
+232,99 Bananas Liqueur,liquor,25,1,17.99,28
+233,BACARDÍ Coquito Coconut Cream Liqueur,liquor,34.9,1,19.99,60
+234,Dr. McGillicuddy’s Mentholmint Liqueur,liquor,23.3,1,18.42,28
+235,Hpnotiq,liquor,12,1,22.99,74
+236,Midori Melon Liqueur,liquor,20.5,1,24.99,79
+237,Patrón XO Cafe,liquor,28.6,1,24.99,37
+238,Ryan’s Irish Cream,liquor,13.3,1,11.59,69
+239,Godiva Chocolate Liqueur,liquor,12.4,1,32.99,50
+240,Licor 43,liquor,29.4,1,27.99,100
+241,Drambuie The Isle of Skye Scotch Liqueur,liquor,39.3,1,39.99,81
+242,DeKuyper Blue Curacao Liqueur,liquor,36.3,1,11.99,41
+243,DeKuyper Peppermint Schnapps Liqueur,liquor,25.2,1,11.89,3
+244,Baileys Apple Pie Irish Cream Liqueur,liquor,26.8,1,28.99,93
+245,DeKuyper Buttershots Schnapps Liqueur,liquor,17.5,1,12.99,1
+246,Luxardo Maraschino Liqueur,liquor,37.5,1,36.99,25
+247,Patrón Citrónge Orange,liquor,10.4,1,23.99,63
+248,Averna Amaro,liquor,25,1,42.99,69
+249,Godiva White Chocolate Liqueur,liquor,19.6,1,32.99,94
+250,Kamora Coffee Liqueur,liquor,19.4,1,12.99,62
+251,Pimm’s No. 1 Cup,liquor,12.5,1,25.99,25
+252,Baileys Original Irish Cream Liqueur Bottle with Two Ceramic Bowls,liquor,27.8,1,29.69,8
+253,Mr. Black Cold Brew Coffee Liquor,liquor,27,1,32.99,82
+254,Pallini Limoncello,liquor,27,1,16.99,57
+255,Baileys Chocolate Cherry,liquor,38.5,1,27.99,20
+256,Alize Red Passion,liquor,29.5,1,20.99,15
+257,PAMA Pomegranate Liqueur,liquor,24.7,1,24.62,15
+258,Baileys Irish Cream Vanilla Cinnamon,liquor,15.8,1,27.99,27
+259,BÉNÉDICTINE D.O.M. Liqueur,liquor,39.3,1,38.81,48
+260,Caravella Limoncello,liquor,20.2,1,20.99,87
+261,Five Farms Irish Cream Liqueur,liquor,39.1,1,31.57,82
+262,Kinky Blue Liqueur,liquor,28.1,1,19.79,22
+263,99 Watermelons Liqueur,liquor,12.1,1,16.99,35
+264,Disaronno Velvet Cream Liqueur,liquor,25.5,1,31.57,37
+265,Brady’s Irish Cream,liquor,31.9,1,21.99,83
+266,Montenegro Amaro Italiano Liqueur,liquor,13.1,1,42.99,5
+267,Hiram Walker Peppermint Schnapps 90 Proof,liquor,10.8,1,8.47,33
+268,RumHaven Caribbean Rum with Coconut Liqueur,liquor,31.5,1,15.99,4
+269,Domaine De Canton,liquor,25,1,35.99,7
+270,Hiram Walker Pepperment Schnapps 60 Proof,liquor,31.7,1,11.99,12
+271,"Baileys Minis The Original Irish Cream Liqueur, 100 mL (3 Pack)",liquor,16.2,1,10.99,64
+272,Pernod Anise,liquor,29.2,1,35.99,8
+273,99 Peppermint Liqueur,liquor,27.6,1,16.99,93
+274,Alizé Gold Passion,liquor,34.7,1,20.2,27
+275,Amaro Nonino Quintessentia,liquor,10.2,1,52.99,51
+276,Baileys Espresso Creme,liquor,37.5,1,27.42,74
+277,99 Apples Liqueur,liquor,31.2,1,17.99,62
+278,Chartreuse Yellow Liqueur,liquor,12.8,1,34.47,86
+279,Emmets Irish Cream,liquor,22.6,1,15.39,51
+280,Goldschlager Cinnamon Liqueur,liquor,12.4,1,27.41,94
+281,Pierre Ferrand Dry Curacao,liquor,21,1,30.99,63
+282,Jagermeister Cold Brew Coffee,liquor,11.9,1,24.99,7
+283,DeKuyper Watermelon Pucker Schnapps Liqueur,liquor,28.4,1,12.99,62
+284,St. Elder Natural Elderflower Liqueur,liquor,23.9,1,19.99,17
+285,Dekuyper Crème de Cacao Dark Liqueur,liquor,22,1,12.95,63
+286,Cynar,liquor,18,1,29,19
+287,Gran Gala Orange Liqueur,liquor,20.8,1,20.99,43
+288,99 Peaches Liqueur,liquor,39,1,16.99,3
+289,Dr. McGillicuddy’s Root Beer Liqueur,liquor,36.6,1,18.99,16
+290,Becherovka Herbal Liqueur,liquor,37.2,1,27.99,34
+291,Grand Marnier Cuvée du Centenaire,liquor,30.8,1,181.89,45
+292,"B,B Liqueur",liquor,31,1,37.99,12
+293,Deep South Egg Nog,liquor,39.3,1,10.31,77
+294,"Rothman , Winter Creme de Violette",liquor,28.1,1,25.99,69
+295,DeKuyper Amaretto Liqueur,liquor,28.5,1,11.99,19
+296,Alize Blue Passion,liquor,40,1,20.99,43
+297,Leroux Polish Blackberry Flavored Brandy,liquor,16.2,1,13.99,63
+298,Michael’s Irish Cream,liquor,23,1,16.98,8
+299,Romana Sambuca Black,liquor,25.2,1,38.99,12
+300,Hiram Walker Butterscotch Schnapps,liquor,34.1,1,11.99,30
+301,Jameson Irish Whiskey,liquor,31.2,1,29.99,65
+302,Bulleit Bourbon,liquor,31.6,1,31.99,100
+303,Jack Daniel’s Old No. 7 Tennessee Whiskey,liquor,33,1,24.99,36
+304,Fireball Cinnamon Whisky,liquor,31.6,1,28.99,26
+305,Maker’s Mark Bourbon Whisky,liquor,49.2,1,55.99,91
+306,Jim Beam Bourbon Whiskey,liquor,33.2,1,29.99,93
+307,Basil Hayden’s Kentucky Straight Bourbon Whiskey,liquor,34.4,1,44.99,71
+308,Woodford Reserve Kentucky Straight Bourbon Whiskey,liquor,44.6,1,38.49,66
+309,Johnnie Walker Black Label Blended Scotch Whisky,liquor,48.3,1,38.99,53
+310,Crown Royal Fine Deluxe Blended Canadian Whisky,liquor,36.9,1,28.99,28
+311,Skrewball Peanut Butter Whiskey,liquor,32,1,29.99,63
+312,Knob Creek Kentucky Straight Bourbon Whiskey,liquor,41.4,1,34.99,14
+313,Jack Daniel’s Tennessee Honey,liquor,39.9,1,46.93,22
+314,Bulleit Rye,liquor,41.8,1,31.99,69
+315,Buffalo Trace Bourbon,liquor,45.2,1,31.99,69
+316,Crown Royal Regal Apple Flavored Whisky,liquor,37,1,28.59,25
+317,Evan Williams Bourbon,liquor,45.9,1,25.91,93
+318,Johnnie Walker Red Label Blended Scotch Whisky,liquor,40.7,1,39.99,26
+319,Wild Turkey 101,liquor,45.6,1,25.99,8
+320,The Glenlivet 12 Year,liquor,42.6,1,49.99,93
+321,Suntory Toki Japanese Whisky,liquor,32.4,1,39.99,52
+322,Tullamore D.E.W. Irish Whiskey,liquor,37.8,1,27.99,15
+323,Crown Royal Vanilla Flavored Whisky,liquor,45,1,27.99,24
+324,Jack Daniel’s Gentleman Jack Tennessee Whiskey,liquor,37.1,1,32.99,28
+325,Crown Royal Peach Flavored Whisky,liquor,43.7,1,32.79,77
+326,Elijah Craig Small Batch Bourbon,liquor,31.8,1,32.22,23
+327,The Macallan Double Cask 12 Years Old,liquor,49.3,1,73.99,30
+328,Four Roses Bourbon,liquor,50,1,23.06,95
+329,Crown Royal Black Blended Canadian Whisky,liquor,45.8,1,32.99,10
+330,Basil Hayden’s Dark Rye Whiskey,liquor,46.5,1,44.99,38
+331,Blanton’s Single Barrel Bourbon,liquor,30.4,1,99.99,13
+332,Hibiki Japanese Harmony Whisky,liquor,39.7,1,89.99,94
+333,Monkey Shoulder Blended Scotch,liquor,41.5,1,35.99,84
+334,Maker’s 46 Bourbon Whisky,liquor,36.9,1,40.69,57
+335,Jim Beam Black Extra Aged Bourbon Whiskey,liquor,36.8,1,22.99,95
+336,Eagle Rare 10yr Bourbon,liquor,42.5,1,39.99,2
+337,Angel’s Envy Kentucky Straight Bourbon Whiskey,liquor,34.8,1,54.99,72
+338,Crown Royal Salted Caramel Flavored Whisky,liquor,36.2,1,28.99,12
+339,Jameson Black Barrel,liquor,47.7,1,39.99,68
+340,Laphroaig 10 Year Old Islay Single Malt Scotch Whisky,liquor,38.3,1,59.99,51
+341,Proper No. Twelve Irish Whiskey,liquor,31,1,29.43,31
+342,High West American Prairie Bourbon Whiskey,liquor,32.1,1,37.57,51
+343,Four Roses Small Batch Bourbon,liquor,42.6,1,37.99,30
+344,Jack Daniel’s Tennessee Fire Flavored Whiskey,liquor,49.4,1,24.99,62
+345,Southern Comfort Original,liquor,38.8,1,27.99,56
+346,The Balvenie 12 Year Old DoubleWood Single Malt Scotch Whisky,liquor,30.9,1,69.99,100
+347,Woodford Reserve Double Oaked Kentucky Straight Bourbon Whiskey,liquor,43,1,56.99,83
+348,Uncle Nearest 1856 Premium Whiskey,liquor,43.9,1,59.99,98
+349,The Balvenie 14 Year Old Caribbean Cask Single Malt Scotch Whisky,liquor,40.1,1,83.99,38
+350,Jameson Cold Brew,liquor,39.8,1,29.99,78
+351,Chivas Regal 12 Year,liquor,35.1,1,34.99,12
+352,Breckenridge Bourbon Whiskey,liquor,32.2,1,44.99,86
+353,Knob Creek Rye Whiskey,liquor,47.5,1,34.99,28
+354,Weller Special Reserve Bourbon,liquor,30.5,1,49.99,28
+355,Canadian Club Whisky,liquor,42.1,1,21.99,37
+356,Redemption Straight Rye Whiskey,liquor,34.9,1,29.99,38
+357,Four Roses Single Barrel Bourbon,liquor,37,1,48.99,82
+358,TX Blended Whiskey,liquor,30.1,1,37.99,77
+359,"E.H. Taylor, Jr. Small Batch Bourbon",liquor,36.3,1,59.99,25
+360,Rittenhouse Rye,liquor,38,1,27.99,76
+361,Larceny Small Batch,liquor,32.5,1,26.99,57
+362,Old Forester 86 Proof Kentucky Straight Bourbon Whisky,liquor,32.9,1,22.99,58
+363,Legent Bourbon Whiskey,liquor,42.7,1,40.69,62
+364,Wild Turkey American Honey,liquor,33.3,1,22.98,67
+365,Jack Daniel’s Tennessee Apple Flavored Whiskey,liquor,36.3,1,24.99,84
+366,High West Double Rye Whiskey,liquor,33.9,1,36.99,7
+367,Jameson Caskmates Stout Edition,liquor,37.4,1,33.99,30
+368,Wild Turkey Longbranch,liquor,46.7,1,39.99,66
+369,Michter’s US-1 Kentucky Straight Rye,liquor,30.5,1,47.07,38
+370,Johnnie Walker White Walker Blended Scotch Whisky,liquor,46.6,1,39.99,28
+371,Bushmills Irish Whiskey,liquor,48.9,1,25.99,43
+372,Fireball Sleeve,liquor,35.1,1,30.79,75
+373,Glenfiddich 12 Year Old Single Malt Scotch Whisky,liquor,37.1,1,49.99,76
+374,Knob Creek Smoked Maple Bourbon Whiskey,liquor,39.6,1,34.99,20
+375,Glenmorangie Original 10 Year Old Single Malt Whisky,liquor,40.6,1,43.99,44
+376,1792 Small Batch Kentucky Straight Bourbon Whiskey,liquor,33.6,1,32.99,41
+377,Hochstadter’s Slow & Low Rock and Rye,liquor,42.3,1,26.87,40
+378,Willett Pot Still Reserve Bourbon,liquor,34.7,1,50.99,95
+379,The Glenlivet Founder’s Reserve,liquor,49.9,1,40.99,64
+380,Oban 14 Year Single Malt,liquor,32.2,1,91.99,52
+381,The Macallan Sherry Oak 12 Years Old,liquor,48,1,79.99,26
+382,Nikka Whisky From The Barrel,liquor,34.8,1,89.99,47
+383,Redbreast 12 Year,liquor,32.6,1,66.99,48
+384,Buchanan’s DeLuxe Aged 12 Years Blended Scotch Whisky,liquor,37.1,1,38.49,63
+385,Michter’s US-1 Kentucky Straight Bourbon,liquor,38,1,46.99,17
+386,Clan Macgregor Scotch,liquor,43.6,1,20.89,80
+387,Wild Turkey Bourbon,liquor,42.9,1,21.99,69
+388,Woodford Reserve Kentucky Straight Rye Whiskey,liquor,35.6,1,39.99,38
+389,Johnnie Walker Double Black Label Blended Scotch Whisky,liquor,43.2,1,56.99,100
+390,Four Roses Small Batch Select Bourbon,liquor,40.9,1,60.49,94
+391,Booker’s Bourbon,liquor,34.3,1,89.99,22
+392,Hudson Bourbon Whiskey,liquor,46.8,1,43.99,36
+393,TINCUP American Whiskey,liquor,36.8,1,29.99,75
+394,Sazerac Rye Whiskey,liquor,38.3,1,32.99,69
+395,Glenfiddich Bourbon Barrel Reserve 14 Year,liquor,30.2,1,58.99,86
+396,Jameson Caskmates IPA Edition,liquor,39.7,1,33.99,37
+397,Jim Beam Devil’s Cut Bourbon Whiskey,liquor,48.6,1,22.99,76
+398,Barrell Dovetail Whiskey,liquor,43.8,1,89.99,42
+399,Nikka Coffey Grain Whisky,liquor,40.7,1,71.99,70
+400,Uncle Nearest 1884 Small Batch Whiskey,liquor,38.3,1,48.98,54
+401,SVEDKA Vodka,liquor,37.1,1,21.99,76
+402,Ketel One Vodka,liquor,49.1,1,26.31,51
+403,GREY GOOSE Vodka,liquor,38.5,1,59.99,70
+404,Absolut Vodka,liquor,43.5,1,34.09,15
+405,SKYY Vodka,liquor,42.7,1,24.99,44
+406,Absolut Strawberry Juice Edition,liquor,37.6,1,20.83,82
+407,Absolut Vanilla Vodka,liquor,30.2,1,27.99,89
+408,Belvedere Vodka,liquor,34.8,1,52.79,56
+409,Absolut Grapefruit Vodka,liquor,42.3,1,26.99,29
+410,Absolut Juice Pear & Elderflower Vodka,liquor,31.8,1,19.99,42
+411,Absolut Apeach Vodka,liquor,44.6,1,27.74,57
+412,Pinnacle Original Vodka,liquor,39.4,1,12.99,12
+413,Absolut Peppar,liquor,40.7,1,20.15,32
+414,Stoli® Vodka,liquor,36.8,1,31.99,32
+415,Ciroc Vodka,liquor,48.8,1,32.99,18
+416,Deep Eddy Ruby Red Vodka,liquor,31.6,1,17.99,62
+417,CIROC Peach Vodka,liquor,39.8,1,32.99,39
+418,Smirnoff Vanilla,liquor,45.4,1,14.21,55
+419,CIROC Red Berry Vodka,liquor,30.9,1,32.99,87
+420,Platinum 7X Vodka,liquor,45.4,1,16.99,32
+421,Taaka Vodka,liquor,33.1,1,12.99,27
+422,Absolut Ruby Red,liquor,40.7,1,27.99,94
+423,Reyka Vodka,liquor,30.2,1,36.99,40
+424,New Amsterdam Peach Vodka,liquor,30.1,1,13.99,16
+425,Skol Vodka,liquor,49.1,1,12.99,80
+426,McCormick Vodka,liquor,33.8,1,13.99,29
+427,Russian Standard Original Vodka,liquor,33.7,1,28.88,86
+428,Deep Eddy Vodka,liquor,48.5,1,17.99,11
+429,SVEDKA Mango Pineapple Flavored Vodka,liquor,35,1,13.99,24
+430,Sobieski Vodka,liquor,48.9,1,20.99,39
+431,Smirnoff Passion Fruit,liquor,37.2,1,14.99,92
+432,Smirnoff Citrus,liquor,34.5,1,14.55,100
+433,SVEDKA Strawberry Lemonade Flavored Vodka,liquor,37.2,1,13.99,89
+434,CIROC Limited Edition Summer Watermelon,liquor,48,1,32.99,82
+435,Monopolowa Vodka,liquor,37.6,1,13.99,68
+436,Breckenridge Vodka,liquor,44.8,1,21.99,34
+437,Pinnacle Whipped Vodka,liquor,36.4,1,12.99,10
+438,Smirnoff Red White & Berry,liquor,37.5,1,14.21,23
+439,New Amsterdam Coconut Vodka,liquor,48.5,1,13.99,85
+440,Smirnoff No. 57 100 Proof Vodka,liquor,42.6,1,32.56,19
+441,Voda Vodka,liquor,36.2,1,14.99,73
+442,CIROC Mango,liquor,39.8,1,60.99,53
+443,Dripping Springs Vodka,liquor,46.2,1,30.99,7
+444,Smirnoff Kissed Caramel,liquor,34.8,1,14.21,26
+445,Chopin Potato Vodka,liquor,39.4,1,29.99,22
+446,Absolut Wild Tea,liquor,39.6,1,21.99,40
+447,Western Son Original Vodka,liquor,31.2,1,16.99,53
+448,Seagram’s Vodka Extra Smooth,liquor,32.3,1,17.84,6
+449,CIROC Pineapple Vodka,liquor,37.2,1,32.99,30
+450,Smirnoff Zero Sugar Infusions Strawberry & Rose,liquor,33,1,14.73,42
+451,Georgi Vodka,liquor,37.3,1,14.99,84
+452,New Amsterdam Apple Vodka,liquor,39.1,1,13.99,87
+453,CIROC Apple Vodka,liquor,42.7,1,32.99,43
+454,New Amsterdam Grapefruit Vodka,liquor,30.8,1,20.99,37
+455,CIROC Limited Edition White Grape,liquor,42.2,1,31.99,87
+456,New Amsterdam Mango Vodka,liquor,44.7,1,13.99,13
+457,Smirnoff Zero Sugar Infusions Cucumber & Lime,liquor,37.9,1,14.55,35
+458,Rain Organic Vodka,liquor,38.7,1,14.99,86
+459,Barton Vodka,liquor,38,1,13.95,88
+460,Wheatley Vodka,liquor,43.7,1,19.99,56
+461,Ketel One Citroen,liquor,36.7,1,24.99,16
+462,Goldlok Sugarcane Vodka,liquor,38.7,1,39.99,29
+463,Beluga Noble Russian Vodka,liquor,38.8,1,29.99,78
+464,Ocean Organic Vodka,liquor,35.2,1,29.99,97
+465,Smirnoff Strawberry,liquor,48.5,1,14.84,61
+466,Smirnoff Cherry,liquor,46.5,1,14.69,2
+467,Deep Eddy Cranberry Vodka,liquor,31.7,1,17.88,34
+468,Stoli® Elit,liquor,39.4,1,49.99,50
+469,Smirnoff Whipped Cream,liquor,31.7,1,14.21,27
+470,Nue Vodka,liquor,36.3,1,11.79,63
+471,CÎROC Limited Edition Black Raspberry,liquor,43.5,1,32.99,15
+472,SVEDKA Citron Lemon Flavored Vodka,liquor,33.7,1,13.99,43
+473,Absolut Chicago,liquor,38.6,1,21.99,40
+474,Barton Naturals Vodka,liquor,45.2,1,11.87,53
+475,SVEDKA Rose Flavored Vodka,liquor,41.8,1,20.73,47
+476,SVEDKA Cucumber Lime Flavored Vodka,liquor,33.8,1,20.73,28
+477,Stoli® Vanilla Vodka,liquor,37.8,1,20.25,59
+478,New Amsterdam Raspberry Vodka,liquor,44,1,20.99,68
+479,New Amsterdam Red Berry Vodka,liquor,33.8,1,13.99,35
+480,Zubrowka Bison Grass Vodka,liquor,43,1,25.99,9
+481,Smirnoff Zero Sugar Infusions Watermelon & Mint,liquor,37.8,1,14.55,64
+482,Finlandia Vodka,liquor,49.3,1,25.39,6
+483,Smirnoff Blueberry,liquor,35,1,14.84,41
+484,New Amsterdam 100 Proof Vodka,liquor,46,1,16.99,3
+485,Three Olives Cherry Vodka,liquor,43.8,1,16.99,36
+486,Karkov Vodka,liquor,47.4,1,13.99,57
+487,Smirnoff Spicy Tamarind,liquor,39.7,1,14.62,32
+488,SVEDKA Clementine Flavored Vodka,liquor,48.6,1,13.49,13
+489,Three Olives Rosé Vodka,liquor,45.6,1,15.99,24
+490,Hammer + Sickle Vodka,liquor,37.9,1,26.99,62
+491,Pinnacle Coconut Vodka,liquor,42.3,1,12.99,19
+492,Enchanted Rock Vodka,liquor,39.1,1,27.93,1
+493,Smirnoff Root Beer Float,liquor,35.3,1,14.99,71
+494,Hangar 1 Vodka,liquor,44.4,1,29.99,5
+495,Devil Springs Vodka,liquor,33.1,1,17.84,21
+496,Figenza Mediterranean Fig Flavored Vodka,liquor,36.8,1,30.99,97
+497,Pickers Original Vodka,liquor,47.6,1,25.99,42
+498,GREY GOOSE Le Citron Flavored Vodka,liquor,34,1,31.06,62
+499,Stoli Razberi,liquor,45.8,1,20.99,92

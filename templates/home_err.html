@@ -1,0 +1,352 @@
+{% extends 'layout.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+{% if session['msq_err']=='Process Done' %}
+<p style="color:green;"> {{session['msq_err']}}</p>
+{% else %}
+{% if session['msq_err']!='Done' %}
+<p style="color:red;">ERROR IN SYNTAX OR NOT PRIVILAGES TO DO ACTION! ERROR: {{session['msq_err']}}</p>
+{% endif %}
+{% endif %}
+
+<h2>Home Page</h2>
+<p>Welcome back, {{ username }}!</p>
+
+
+{%if session['role']=='client'%}
+<p>Show_sales_for_client. Please select submit button below to run!</p>
+<form action="{{ url_for('sale') }}" method="post">
+    <input type="submit">
+</form>
+<p>Show_sales_for_client_product. Please input product_id in textform below and select submit button to run!</p>
+<form action="{{ url_for('sale_product') }}" method="post">
+    <input type="text" name="sale_product1">
+    <input type="submit">
+</form>
+
+{% endif %}
+
+{%if session['role']=='supplier'%}
+<p>Show_sales_for_supplier_product. Please select submit button below to run!</p>
+<form action="{{ url_for('supplier') }}" method="post">
+    <input type="submit">
+</form>
+
+<p>Show_sales_for_supplier_product. Please input product_id in textform below and select submit button to run!</p>
+<form action="{{ url_for('supplier_product') }}" method="post">
+    <input type="text" name="supplier_product1">
+    <input type="submit">
+</form>
+
+{% endif %}
+
+
+{%if session['role']=='worker'%}
+<p>Worker is able to SELECT, INSERT, UPDATE on liquors warehouse
+database excluding users and workers tables, can access all procedures
+except update sales and update supplies, has access to all functions except
+worker already exists, client already exists supplier already exists
+and can access all views</p>
+
+<p>TO SELECT, INSERT, UPDATE on liquors warehouse
+    database select table name in dropdown list and submit below!</p>
+
+    <form action="{{ url_for('select') }}" method="post">
+        <label for="tables">SELECT:</label>
+        <input type="text" name="what" value="*">
+    
+        <label for="tables">FROM table:</label>
+        <select id="tables" name="tables" size="6">
+    
+            <option value="beers">beers</option>
+            <option value="wines">wines</option>
+            <option value="liquors">liquors</option>
+            <option value="products">products</option>
+            <option value="clients">clients</option>
+            <option value="sales">sales</option>
+            <option value="sales_info">sales_info</option>
+            <option value="suppliers">suppliers</option>
+            <option value="supplies">supplies</option>
+            <option value="supplies_info">supplies_info</option>
+            <option value="sale_summary">view: sale_summary</option>
+            <option value="supplier_summary">view: supplier_summary</option>
+        </select>
+        <label for="tables">JOIN (select):</label>
+        <select id="join" name="join" size="6">
+            <option value=" ">  </option>
+            <option value="INNER JOIN ">INNER JOIN </option>
+            <option value="LEFT JOIN ">LEFT JOIN </option>
+            <option value="RIGHT JOIN ">RIGHT JOIN </option>
+            <option value="CROSS JOIN ">CROSS JOIN </option>
+        </select>
+        <label for="tables_j">Join table:</label>
+        <select id="tables_j" name="tables_j" size="6">
+            <option value=" "> </option>
+            <option value="beers">beers</option>
+            <option value="wines">wines</option>
+            <option value="liquors">liquors</option>
+            <option value="products">products</option>
+            <option value="clients">clients</option>
+            <option value="sales">sales</option>
+            <option value="sales_info">sales_info</option>
+            <option value="suppliers">suppliers</option>
+            <option value="supplies">supplies</option>
+            <option value="supplies_info">supplies_info</option>
+            <option value="users">users</option>
+
+    
+        </select>
+        <label for="tables">ON:</label>
+        <input type="text" name="on" value="">
+        <label for="tables">WHERE:</label>
+        <input type="text" name="condition" value="">
+        <label for="tables">GROUP BY:</label>
+        <input type="text" name="group" value="">
+    
+        <label for="tables">HAVING:</label>
+        <input type="text" name="having" value="">
+        <label for="tables">ORDER BY:</label>
+        <input type="text" name="order" value="">
+        <label for="tables">LIMIT:</label>
+        <input type="text" name="limit" value="">       
+        <input type="submit">
+      </form>
+  <p>Update sale and supply status after realisation (Done 0 to 1)!</p>
+  <form method="post" action="/pythonlogin/home/update1">
+
+
+    <input type="submit" value="UPDATE_SALE" name="UPDATE_SALE"/>
+    <input type="text" name="UPDATE_SALE1" value="">
+    <input type="submit" value="UPDATE_SUPPLY" name="UPDATE_SUPPLY"/>
+    <input type="text" name="UPDATE_SUPPLY1" value="">
+  
+  </form>
+  <p>Quantity on date calculates the quantity of a specific product on the
+    chosen date to forecast the future quantity of the product after an order
+    is made but not done yet. Input below product_id and future date in YYYY-MM-DD format"!</p>
+    <form method="post" action="/pythonlogin/quantity_on_date">
+    <label for="tables1">Product_ID:</label>
+    <input type="text" name="Product_ID" value="">
+    <label for="tables1">Feature_Date:</label>
+    <input type="text" name="Feature_Date" value="">
+    <input type="submit" value="RUN_FUNCTION" name="RUN_FUNCTION"/>
+
+    </form>
+
+
+{% endif %}
+
+
+
+{%if session['role']=='manager'%}
+<p>Manager is able to SELECT, INSERT, UPDATE, DELETE on liquors warehouse
+    database, can access all procedures, functions and
+    views</p>
+
+<p>TO SELECT, INSERT, UPDATE, DELETE on liquors warehouse
+    database select table name in dropdown list and submit below!</p>
+    <form action="{{ url_for('select') }}" method="post">
+        <label for="tables">SELECT:</label>
+        <input type="text" name="what" value="*">
+    
+        <label for="tables">FROM table:</label>
+        <select id="tables" name="tables" size="6">
+    
+            <option value="beers">beers</option>
+            <option value="wines">wines</option>
+            <option value="liquors">liquors</option>
+            <option value="products">products</option>
+            <option value="clients">clients</option>
+            <option value="sales">sales</option>
+            <option value="sales_info">sales_info</option>
+            <option value="suppliers">suppliers</option>
+            <option value="supplies">supplies</option>
+            <option value="supplies_info">supplies_info</option>
+            <option value="workers">workers</option>
+            <option value="sale_summary">view: sale_summary</option>
+            <option value="supplier_summary">view: supplier_summary</option>
+        </select>
+        <label for="tables">JOIN (select):</label>
+        <select id="join" name="join" size="6">
+            <option value=" ">  </option>
+            <option value="INNER JOIN ">INNER JOIN </option>
+            <option value="LEFT JOIN ">LEFT JOIN </option>
+            <option value="RIGHT JOIN ">RIGHT JOIN </option>
+            <option value="CROSS JOIN ">CROSS JOIN </option>
+        </select>
+        <label for="tables_j">Join table:</label>
+        <select id="tables_j" name="tables_j" size="6">
+            <option value=" "> </option>
+            <option value="beers">beers</option>
+            <option value="wines">wines</option>
+            <option value="liquors">liquors</option>
+            <option value="products">products</option>
+            <option value="clients">clients</option>
+            <option value="sales">sales</option>
+            <option value="sales_info">sales_info</option>
+            <option value="suppliers">suppliers</option>
+            <option value="supplies">supplies</option>
+            <option value="supplies_info">supplies_info</option>
+            <option value="workers">workers</option>
+    
+        </select>
+        <label for="tables">ON:</label>
+        <input type="text" name="on" value="">
+        <label for="tables">WHERE:</label>
+        <input type="text" name="condition" value="">
+        <label for="tables">GROUP BY:</label>
+        <input type="text" name="group" value="">
+    
+        <label for="tables">HAVING:</label>
+        <input type="text" name="having" value="">
+        <label for="tables">ORDER BY:</label>
+        <input type="text" name="order" value="">
+        <label for="tables">LIMIT:</label>
+        <input type="text" name="limit" value="">       
+        <input type="submit">
+      </form>
+  
+  <p>Update sale and supply status after realisation (Done 0 to 1)!</p>
+  <form method="post" action="/pythonlogin/home/update1">
+
+
+    <input type="submit" value="UPDATE_SALE" name="UPDATE_SALE"/>
+    <input type="text" name="UPDATE_SALE1" value="">
+    <input type="submit" value="UPDATE_SUPPLY" name="UPDATE_SUPPLY"/>
+    <input type="text" name="UPDATE_SUPPLY1" value="">
+  
+  </form>
+</form>
+<p>Quantity on date calculates the quantity of a specific product on the
+    chosen date to forecast the future quantity of the product after an order
+    is made but not done yet. Input below product_id and future date in YYYY-MM-DD format"!</p>
+    <form method="post" action="/pythonlogin/quantity_on_date">
+    <label for="tables1">Product_ID:</label>
+    <input type="text" name="Product_ID" value="">
+    <label for="tables1">Feature_Date:</label>
+    <input type="text" name="Feature_Date" value="">
+    <input type="submit" value="RUN_FUNCTION" name="RUN_FUNCTION"/>
+
+    </form>
+
+
+{% endif %}
+
+
+
+{%if session['role']=='admin'%}
+<p>Admin have the access to the whole liquors warehouse database with
+    all tables, procedures and functions,can create a backup for the table and
+    can access all views</p>
+
+<p>TO SELECT, INSERT, UPDATE, DELETE on liquors warehouse
+    database select table name in dropdown list and submit below!</p>
+
+<form action="{{ url_for('select') }}" method="post">
+    <label for="tables">SELECT:</label>
+    <input type="text" name="what" value="*">
+
+    <label for="tables">FROM table:</label>
+    <select id="tables" name="tables" size="6">
+
+        <option value="beers">beers</option>
+        <option value="wines">wines</option>
+        <option value="liquors">liquors</option>
+        <option value="products">products</option>
+        <option value="clients">clients</option>
+        <option value="sales">sales</option>
+        <option value="sales_info">sales_info</option>
+        <option value="suppliers">suppliers</option>
+        <option value="supplies">supplies</option>
+        <option value="supplies_info">supplies_info</option>
+        <option value="users">users</option>
+        <option value="workers">workers</option>
+        <option value="sale_summary">view: sale_summary</option>
+        <option value="supplier_summary">view: supplier_summary</option>
+        <option value="loggings">loggings</option>
+    </select>
+    <label for="tables">JOIN (select):</label>
+    <select id="join" name="join" size="6">
+        <option value=" ">  </option>
+        <option value="INNER JOIN ">INNER JOIN </option>
+        <option value="LEFT JOIN ">LEFT JOIN </option>
+        <option value="RIGHT JOIN ">RIGHT JOIN </option>
+        <option value="CROSS JOIN ">CROSS JOIN </option>
+    </select>
+    <label for="tables_j">Join table:</label>
+    <select id="tables_j" name="tables_j" size="6">
+        <option value=" "> </option>
+        <option value="beers">beers</option>
+        <option value="wines">wines</option>
+        <option value="liquors">liquors</option>
+        <option value="products">products</option>
+        <option value="clients">clients</option>
+        <option value="sales">sales</option>
+        <option value="sales_info">sales_info</option>
+        <option value="suppliers">suppliers</option>
+        <option value="supplies">supplies</option>
+        <option value="supplies_info">supplies_info</option>
+        <option value="users">users</option>
+        <option value="workers">workers</option>
+        <option value="loggings">loggings</option>
+
+    </select>
+    <label for="tables">ON:</label>
+    <input type="text" name="on" value="">
+    <label for="tables">WHERE:</label>
+    <input type="text" name="condition" value="">
+    <label for="tables">GROUP BY:</label>
+    <input type="text" name="group" value="">
+
+    <label for="tables">HAVING:</label>
+    <input type="text" name="having" value="">
+    <label for="tables">ORDER BY:</label>
+    <input type="text" name="order" value="">
+    <label for="tables">LIMIT:</label>
+    <input type="text" name="limit" value="">       
+    <input type="submit">
+  </form>
+  <p>Update sale and supply status after realisation (Done 0 to 1)!</p>
+  <form method="post" action="/pythonlogin/home/update1">
+
+
+    <input type="submit" value="UPDATE_SALE" name="UPDATE_SALE"/>
+    <input type="text" name="UPDATE_SALE1" value="">
+    <input type="submit" value="UPDATE_SUPPLY" name="UPDATE_SUPPLY"/>
+    <input type="text" name="UPDATE_SUPPLY1" value="">
+  
+  </form>
+  <p>Quantity on date calculates the quantity of a specific product on the
+    chosen date to forecast the future quantity of the product after an order
+    is made but not done yet. Input below product_id and future date in YYYY-MM-DD format"!</p>
+    <form method="post" action="/pythonlogin/quantity_on_date">
+    <label for="tables1">Product_ID:</label>
+    <input type="text" name="Product_ID" value="">
+    <label for="tables1">Feature_Date:</label>
+    <input type="text" name="Feature_Date" value="">
+    <input type="submit" value="RUN_FUNCTION" name="RUN_FUNCTION"/>
+
+    </form>
+
+    <p>ADD user from loggings input below ID of looged user.</p>
+    <form method="post" action="/pythonlogin/add_user_logg">
+    <label for="tables">ID:</label>
+    <input type="text" name="add_user_logg" value="">
+    <input type="submit" value="ADD_user" name="ADD_user"/>
+
+    </form>
+
+  <p>To locally backup and restore database click buttons below!</p>
+  <form method="post" action="/pythonlogin/home/backup">
+
+    <input type="submit" value="SAVE" name="SAVE"/>
+    <input type="submit" value="RESTORE" name="RESTORE"/>
+
+
+</form>
+{% endif %}
+
+
+{% endblock %}

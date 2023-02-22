@@ -1,0 +1,101 @@
+product_id,name,brand,type,abv,capacity,categories,country
+1,Bud Light,Bud Light,Pale Lager,5.8,50,"Pale Lager, Lager, American-Style Lager",United States
+2,Coors Light Lager Beer,Coors Beer,Pale Lager,5.6,11,"Pale Lager, Lager, American-Style Lager",United States
+3,Miller Lite Lager Beer,Miller Brewing Co.,Pale Lager,5.1,16,"Pale Lager, Lager, American-Style Lager",United States
+4,Corona Extra,Corona,Pale Lager,2.6,12,"Pale Lager, Lager, American-Style Lager",Mexico
+5,Michelob ULTRA,Michelob,Pale Lager,2.7,80,"Pale Lager, Lager, American-Style Lager",United States
+6,Stella Artois,Stella Artois,Pale Lager,5.5,75,"Pale Lager, Lager",Belgium
+7,Modelo Especial,Modelo Beer,Pale Lager,4.1,98,"Pale Lager, Lager, American-Style Lager",Mexico
+8,Guinness Draught,Guinness,Stout,2.7,22,"Stout, Dry Stout, ALE",Ireland
+9,Blue Moon Belgian White Wheat Beer,Blue Moon Beer,Witbier,4.2,92,"Witbier, Wheat Ale, ALE",United States
+10,Heineken Lager,Heineken,Pale Lager,4.8,65,"Pale Lager, Lager",Netherlands
+11,Budweiser,Budweiser,Pale Lager,4.1,18,"Pale Lager, Lager, American-Style Lager",United States
+12,Lagunitas IPA,Lagunitas Beer,IPA,6.4,76,"IPA, ALE",United States
+13,Corona Light,Corona,Pale Lager,4.6,9,"Pale Lager, Lager, American-Style Lager",Mexico
+14,New Belgium Fat Tire Amber Ale,New Belgium Brewing Company,Amber / Red Ale,2.7,37,"Amber / Red Ale, ALE",United States
+15,New Belgium Voodoo Ranger Imperial IPA,New Belgium Brewing Company,IPA,6.1,85,"IPA, Imperial / Double IPA, ALE",United States
+16,Yuengling Traditional Lager,Yuengling,Lager,3.5,53,"Lager, Amber / Vienna Lager",United States
+17,Corona Premier,Corona,Pale Lager,2.5,96,"Pale Lager, Lager, American-Style Lager",Mexico
+18,Pabst Blue Ribbon,Pabst Blue Ribbon Beer,Pale Lager,4.6,48,"Pale Lager, Lager, American-Style Lager",United States
+19,Sierra Nevada Hazy Little Thing IPA,Sierra Nevada,New England / Hazy IPA,4.3,11,"New England / Hazy IPA, IPA, ALE",United States
+20,Samuel Adams Octoberfest,Samuel Adams,Pale Lager,6.4,66,Seasonal Beer,United States
+21,Founders All Day IPA,Founders Brewing Company,Session IPA,2.5,97,"Session IPA, IPA, ALE",United States
+22,Dos Equis Lager,Dos Equis,Pale Lager,2.3,84,"Pale Lager, Lager, American-Style Lager",Mexico
+23,Miller High Life American Lager Beer,Miller Brewing Co.,Pale Lager,4.7,17,"Pale Lager, Lager, American-Style Lager",United States
+24,Coors Banquet Lager Beer,Coors Beer,Pale Lager,3.4,21,"Pale Lager, Lager, American-Style Lager",United States
+25,Bud Light Platinum,Bud Light,Pale Lager,2.3,98,"Pale Lager, Lager, American-Style Lager",United States
+26,Bell’s Two Hearted Ale IPA,Bell's Brewery,IPA,5.9,49,"IPA, Imperial / Double IPA, ALE",United States
+27,Bud Light Lime,Bud Light,Pale Lager,2.7,87,"Pale Lager, Lager, American-Style Lager",United States
+28,Modelo Negra,Modelo Beer,Lager,4.9,80,"Lager, Amber / Vienna Lager",Mexico
+29,Pacifico Clara,Pacifico,Pale Lager,4.8,15,"Pale Lager, Lager",Mexico
+30,Samuel Adams Boston Lager Beer,Samuel Adams,Lager,6.1,82,"Lager, Amber / Vienna Lager",United States
+31,Peroni Nastro Azzurro Pale Lager Beer,Peroni,Pale Lager,6.3,49,"Pale Lager, Lager, Dortmunder / Export Lager",Italy
+32,Allagash White,Allagash,Witbier,3.6,2,"Witbier, Wheat Ale, ALE",United States
+33,Narragansett Lager,Narragansett,Pale Lager,5.2,80,"Pale Lager, Lager, American-Style Lager",United States
+34,Busch Light,Busch,Pale Lager,4.0,70,"Pale Lager, Lager, American-Style Lager",United States
+35,Guinness Extra Stout,Guinness,Stout,5.4,78,"Stout, Dry Stout, ALE",Ireland
+36,Michelob Ultra Pure Gold,Michelob,Pale Lager,5.7,43,"Pale Lager, Lager, American-Style Lager",United States
+37,Sierra Nevada Pale Ale,Sierra Nevada,Pale Ale,4.8,13,"Pale Ale, American Pale Ale, ALE",United States
+38,Cigar City Brewing Jai Alai IPA,Cigar City Brewing,IPA,5.7,91,"IPA, ALE",United States
+39,Left Hand Milk Stout Nitro,Left Hand,Stout,4.9,71,"Stout, Milk Stout, ALE",United States
+40,New Belgium Voodoo Ranger IPA,New Belgium Brewing Company,IPA,4.9,96,"IPA, ALE",United States
+41,Shiner Bock,Shiner,Lager,4.1,78,"Lager, Bock",United States
+42,Natural Light,Natural Light,Pale Lager,6.4,73,"Pale Lager, Lager, American-Style Lager",United States
+43,Victory Brewing Sour Monkey,Victory Brewing Company,Sour / Wild Ale,6.2,12,"Sour / Wild Ale, ALE",United States
+44,Lawson’s Sip of Sunshine IPA,Lawson's Finest Liquids,New England / Hazy IPA,3.8,72,"New England / Hazy IPA, IPA, ALE",United States
+45,Lagunitas Little Sumpin’ Sumpin’ Ale,Lagunitas Beer,Wheat Ale,4.3,60,"Wheat Ale, ALE",United States
+46,Dogfish Head Seaquench Ale,Dogfish Head,Sour / Wild Ale,3.4,27,"Sour / Wild Ale, Gose, ALE",United States
+47,New Belgium Voodoo Ranger Juicy Haze IPA,New Belgium Brewing Company,New England / Hazy IPA,4.0,84,"New England / Hazy IPA, IPA, ALE",United States
+48,Victory Golden Monkey,Victory Brewing Company,Tripel,2.1,33,"Tripel, Belgian-Style Ale, ALE",United States
+49,Lagunitas Hazy Wonder,Lagunitas Beer,New England / Hazy IPA,4.2,31,"New England / Hazy IPA, IPA, ALE",United States
+50,Heineken Light,Heineken,Pale Lager,5.7,82,"Pale Lager, Lager, American-Style Lager",Netherlands
+51,Kona Big Wave Golden Ale,Kona,Golden / Blonde Ale,5.7,21,"Golden / Blonde Ale, ALE",United States
+52,Dogfish Head 90 Minute IPA,Dogfish Head,IPA,3.3,33,"IPA, Imperial / Double IPA, ALE",United States
+53,Mighty Squirrel Cloud Candy IPA,Mighty Squirrel,New England / Hazy IPA,5.2,39,"New England / Hazy IPA, IPA, ALE",United States
+54,Lagunitas DayTime IPA,Lagunitas Beer,Session IPA,2.1,34,"Session IPA, IPA, ALE",United States
+55,Elysian Brewing Space Dust IPA,Elysian,IPA,6.7,96,"IPA, ALE",United States
+56,Rolling Rock Extra Pale,Rolling Rock,Pale Lager,5.9,98,"Pale Lager, Lager, American-Style Lager",United States
+57,Shipyard Seasonal,Shipyard,#VALUE!,5.4,7,Seasonal Beer,United States
+58,Lord Hobo Boomsauce Double IPA,Lord Hobo,IPA,3.0,76,"IPA, Imperial / Double IPA, ALE",United States
+59,Tecate,Tecate,Pale Lager,5.6,29,"Pale Lager, Lager, American-Style Lager",Mexico
+60,Night Shift Santilli IPA,Night Shift,IPA,5.0,92,"IPA, ALE",United States
+61,Red Stripe,Red Stripe,Pale Lager,6.1,85,"Pale Lager, Lager",Jamaica
+62,Pilsner Urquell Beer,Pilsner Urquell,Pilsner,4.1,36,"Pilsner, Lager",Czech Republic
+63,Oskar Blues Dale’s Pale Ale,Oskar Blues Brewery,Pale Ale,6.6,49,"Pale Ale, American Pale Ale, ALE",United States
+64,Corona Extra Coronita,Corona,Pale Lager,6.6,79,"Pale Lager, Lager, American-Style Lager",Mexico
+65,Breckenridge Brewery 15 Can Sampler Pack,Breckenridge Brewery,IPA,6.6,37,"IPA, ALE",United States
+66,Sixpoint Resin,Sixpoint,IPA,4.2,42,"IPA, Imperial / Double IPA, ALE",United States
+67,Hoegaarden White,Hoegaarden,Witbier,4.1,54,"Witbier, Wheat Ale, ALE",Belgium
+68,Harpoon IPA,Harpoon,IPA,3.7,17,"IPA, ALE",United States
+69,Golden Road Brewing Mango Cart,Golden Road Brewing,Wheat Ale,4.2,17,"Wheat Ale, ALE",United States
+70,Stone Delicious IPA,Stone Brewing Co.,IPA,3.7,32,"IPA, ALE",United States
+71,Amstel Light,Amstel,Pale Lager,3.0,71,"Pale Lager, Lager, American-Style Lager",Netherlands
+72,Ballast Point Sculpin IPA,Ballast Point,IPA,6.2,99,"IPA, ALE",United States
+73,Schöfferhofer Grapefruit Hefeweizen,Schofferhofer,Wheat Ale,2.4,22,"Wheat Ale, Hefeweizen, ALE",Germany
+74,Blue Moon Light Sky Wheat Beer,Blue Moon Beer,Wheat Ale,6.9,58,"Wheat Ale, ALE",United States
+75,Natural Ice,Natural Light,Pale Lager,2.3,94,"Pale Lager, Lager, American-Style Lager",United States
+76,New Holland Dragon’s Milk Bourbon Barrel Stout,New Holland,Stout,4.4,39,"Stout, Imperial Stout, ALE",United States
+77,Sloop Brewing Juice Bomb IPA,Sloop Brewing Co.,New England / Hazy IPA,2.6,34,"New England / Hazy IPA, IPA, ALE",United States
+78,Yuengling Light Lager,Yuengling,Pale Lager,4.4,9,"Pale Lager, Lager, American-Style Lager",United States
+79,"New Belgium Rotating Seasonal, Accumulation White IPA",New Belgium Brewing Company,Pale Lager,3.5,80,Seasonal Beer,United States
+80,Odell 90 Shilling Ale,Odell,Amber / Red Ale,5.6,72,"Amber / Red Ale, ALE",United States
+81,Guinness Baltimore Blonde,Guinness,Pale Lager,5.8,22,"Pale Lager, Lager, American-Style Lager",United States
+82,Dogfish Head Slightly Mighty,Dogfish Head,IPA,2.3,64,"IPA, ALE",United States
+83,Night Shift Nite Lite Craft Light Lager,Night Shift,Pale Lager,3.5,62,"Pale Lager, Lager, American-Style Lager",United States
+84,Brooklyn Lager,Brooklyn Brewery,Lager,6.0,44,"Lager, Amber / Vienna Lager",United States
+85,New Belgium Voodoo Ranger Rotating IPA Series,New Belgium Brewing Company,IPA,3.2,29,"IPA, ALE",United States
+86,Dogfish Head 60 Minute IPA,Dogfish Head,IPA,6.8,93,"IPA, ALE",United States
+87,Beck’s,Beck's,Pilsner,6.7,35,"Pilsner, Lager",Germany
+88,Maine Beer Company Lunch,Maine Beer Company,IPA,3.0,92,"IPA, ALE",United States
+89,Station 26 Juicy Banger IPA,Station 26,IPA,5.1,100,"IPA, ALE",United States
+90,Lagunitas Super Cluster IPA,Lagunitas Beer,IPA,2.4,27,"IPA, Imperial / Double IPA, ALE",United States
+91,Odell IPA,Odell,IPA,6.1,84,"IPA, ALE",United States
+92,Sierra Nevada Torpedo Extra IPA,Sierra Nevada,IPA,4.4,73,"IPA, ALE",United States
+93,Firestone Walker Mind Haze,Firestone Walker,New England / Hazy IPA,2.1,18,"New England / Hazy IPA, IPA, ALE",United States
+94,Weihenstaphaner Hefe Weissbier,Weihenstephaner,Wheat Ale,6.9,57,"Wheat Ale, Hefeweizen, ALE",Germany
+95,Revolver Brewing Blood and Honey,Revolver Brewing,Wheat Ale,6.5,3,"Wheat Ale, ALE",United States
+96,Firestone Walker 805,Firestone Walker,Golden / Blonde Ale,5.0,3,"Golden / Blonde Ale, ALE",United States
+97,Stone IPA,Stone Brewing Co.,IPA,5.1,28,"IPA, ALE",United States
+98,Dry Dock Brewing Apricot Blonde,Dry Dock,Golden / Blonde Ale,3.2,67,"Golden / Blonde Ale, ALE",United States
+99,LandShark Lager,Landshark,Pale Lager,6.6,62,"Pale Lager, Lager, American-Style Lager",United States
+100,Blue Moon Mango Wheat Beer,Blue Moon Beer,Wheat Ale,6.5,27,"Wheat Ale, ALE",United States

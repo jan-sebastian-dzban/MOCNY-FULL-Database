@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  </head>
+  <body class="loggedin">
+    <nav class="navtop">
+      <div>
+        <h1>MOCNY FULL</h1>
+                <a href="{{ url_for('home') }}"><i class="fas fa-home"></i>Home</a>
+        <a href="{{ url_for('profile') }}"><i class="fas fa-user-circle"></i>Profile</a>
+        <a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i>Logout</a>
+      </div>
+    </nav>
+    <div class="content">
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+ <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+  <div class="container">
+    <form method="POST" action="/pythonlogin/home/change">
+      {% if session['msq_err']!='Done' %}
+      <p style="color:red;">ERROR IN SYNTAX OR NOT PRIVILAGES TO DO ACTION! ERROR: {{session['msq_err']}}</p>
+      {% endif %}
+      
+   <div class="table-responsive">
+    <div>
+    <div id="first" lign="left" style="padding:8px;"><p style="color:blue;"><b>Table: {{session['table']}}</b></p></div>
+    <div id="second" align="right" style="padding:8px;">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+         {% for message in messages %}
+         <div class="alert alert-danger" role="alert">{{ message }}</div>
+         {% endfor %}
+         {% endif %}
+        {% endwith %}
+        {% if contacts %}
+        {%if session['table']!='supplier_summary' and session['table']!='sale_summary'%}
+        {%if session['role']=='admin' or session['role']=='manager'%}
+       <input type="submit" name='Delete' value="Delete" class="btn btn-primary">  
+       {% endif %}
+       <input type="submit" name="Edit" value="Edit" class="btn btn-primary"> 
+       <input type="submit" name="Add" value="Add" class="btn btn-primary"> 
+       {% endif %}
+      </div>
+    </div>
+    <table class="table table-bordered">
+        {% if contacts %}
+        <tr>
+            
+            {% for key in contacts[0] %}
+
+                <th>{{ key }}</th>
+            {% endfor %}
+
+        </tr>
+
+        {% endif %}
+        {% for row in contacts %}
+        <tr id="{{row.values()|first}}" >
+   
+         {% for value in row.values() %}
+               <td>{{ value }}  </td>
+         {% endfor %}
+         <td><input type="checkbox" name="mycheckbox" value="{{row.values()|first}}" /></td>
+
+        </tr>
+        {% endfor %}
+    </table>
+    {% else %}
+    No data to show
+    {% endif %}
+    </script>
+   </div>
+   </form>  
+ </body>
+</html>

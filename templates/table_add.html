@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+</head>
+<body class="loggedin">
+  <nav class="navtop">
+    <div>
+      <h1>MOCNY FULL</h1>
+              <a href="{{ url_for('home') }}"><i class="fas fa-home"></i>Home</a>
+      <a href="{{ url_for('profile') }}"><i class="fas fa-user-circle"></i>Profile</a>
+      <a href="{{ url_for('logout') }}"><i class="fas fa-sign-out-alt"></i>Logout</a>
+    </div>
+  </nav>
+  <div class="content">
+    {% block content %}{% endblock %}
+  </div>
+</body>
+
+ <head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+ </head>
+ <body>
+
+
+  <div class="container">
+    <form method="POST" action="/pythonlogin/home/change/add">
+
+   <div class="table-responsive">
+    <div align="right" style="padding:8px;">
+        {% with messages = get_flashed_messages() %}
+          {% if messages %}
+         {% for message in messages %}
+         <div class="alert alert-danger" role="alert">{{ message }}</div>
+         {% endfor %}
+         {% endif %}
+        {% endwith %}
+        <p>In specyfic input boxes place text( with appropriate format of column) that you want 
+          to change with column name ex. ['people'] <br>
+          ['name',age] <br>
+          ['CARLOS',23]   </p>
+          {%if table =='users'%}
+          <p>Adding user automaticlly add user to (client, worker,supplier) table. You canot add user without adding automaticly (client, worker,supplier) .</p>
+          <p>Table Name :   <input type = "text" value = "{{table}}"  name="table_add" readonly/></p>
+          <p>Columns Name :   <input type = "text" value = "login,password,seed,type,name,pesel,address,phone_number,email"  name="column_add" size="100"/> </p>
+          <p>Values :   <input type = "text" value = "'rad','ran',2,'worker','manr12',1111111111,'fgf',34343,'adm@inadmin.com'"  name="value_add" size="100"/></p>
+          <input type="submit" name="Add_All" value="Add_All" class="btn btn-primary">
+          {%elif table =='products'%}
+          <p>Adding product only add product to a table do not add to tables(liquors,wines,beers). You can add product + (liquors,wines,beers) using mentioned tables.</p>
+          <p>Table Name :   <input type = "text" value = "{{table}}"  name="table_add" readonly/></p>
+          <p>Columns Name :   <input type = "text" value = "name,type,capacity,abv,price,quantity"  name="column_add" size="100" /></p>
+          <p>Values :   <input type = "text" value = "'dd','beer', 1,2.2, 5.2, 10"  name="value_add" size="100" /></p>
+          <input type="submit" name="Add_All" value="Add_All" class="btn btn-primary">
+          {%elif table =='beers'%}
+          <p>Adding beer we automaticlly add beer to products table. You canot add beer without adding product.</p>
+          <p>Table Name :   <input type = "text" value = "{{table}}"  name="table_add" readonly/></p>
+          <p>Columns Name :   <input type = "text" value = "name,brewery,abv,type,capacity,category,country,price"  name="column_add" size="100" /></p>
+          <p>Values :   <input type = "text" value = "'Bud1','pp',2.2,'Red',1,'dc','ds',22.34"  name="value_add" size="100" /></p>
+          <input type="submit" name="Add_All" value="Add_All" class="btn btn-primary">
+          {%elif table =='wines'%}
+          <p>Adding wine we automaticlly add wine to products table. You canot add wine without adding product.</p>
+          <p>Table Name :   <input type = "text" value = "{{table}}"  name="table_add" readonly/></p>
+          <p>Columns Name :   <input type = "text" value = "name,brand,abv,type,capacity,category,country,price"  name="column_add" size="100" /></p>
+          <p>Values :   <input type = "text" value = "'Bud1','pp',2.2,'Red',1,'dc','ds',22.34"  name="value_add" size="100" /></p>
+          <input type="submit" name="Add_All" value="Add_All" class="btn btn-primary">
+          {%elif table =='liquors'%}
+          <p>Adding liquor we automaticlly add liquor to products table. You canot add liquor without adding product.</p>
+          <p>Table Name :   <input type = "text" value = "{{table}}"  name="table_add" readonly/></p>
+          <p>Columns Name :   <input type = "text" value = "name,brand,abv,type,capacity,category,country,price"  name="column_add" size="100" /></p>
+          <p>Values :   <input type = "text" value = "'Bud1','pp',2.2,'vodka',1,'dc','ds',22.34"  name="value_add" size="100" /></p>
+          <input type="submit" name="Add_All" value="Add_All" class="btn btn-primary">
+          {%elif table =='workers' or table =='clients' or table =='suppliers'  %}
+          <p>Adding into table is not allowed. To add worker/client/supplier you need to add new user using users table!</p>
+          <p>Table Name :   {{table}}</p>
+          {% else %}
+          <p>Table Name :   <input type = "text" value = "{{table}}"  name="table_add" readonly/></p>
+          <p>Columns Name :   <input type = "text" value = "{{columns}}"  name="column_add" size="100" /></p>
+          <p>Values :   <input type = "text" value = "1222,'dds','s',3,'Red',12,'c','c'"  name="value_add" size="100" /></p>
+          <input type="submit" name="Add_All" value="Add_All" class="btn btn-primary">
+
+          {% endif %}
+    </script>
+   </div>
+   </form>  
+ </body>
+</html>
